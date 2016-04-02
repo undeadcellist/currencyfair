@@ -1,0 +1,71 @@
+/* line 9, style.scss */
+body {
+  height: 100%;
+  background-color: #223c61;
+  font-family: helvetica,cursive;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/images/typewriter.jpg");
+}
+
+/* line 18, style.scss */
+div {
+  border-radius: 3px;
+}
+
+/* line 21, style.scss */
+.wrapper {
+  max-width: 1200px;
+  margin: 0, auto;
+  height: 100%;
+}
+
+.main{
+  margin-top:67px;
+  margin-left: auto;
+  margin-right: auto;
+  color:white;
+}
+.from{
+  color:green;
+  font-weight: bold;
+}
+.to{
+  color:red;
+  font-weight: bold;
+}
+
+/* line 55, style.scss */
+.navbar {
+  list-style-type: none;
+  margin-right: 10px;
+}
+/* line 58, style.scss */
+.navbar li {
+  float: left;
+  list-style-type: none;
+  margin-left: 10px;
+}
+/* line 63, style.scss */
+.navbar li a {
+  color: white;
+  font-weight: bold;
+}
+
+/* line 69, style.scss */
+.navbar-fixed-top {
+  opacity: .2;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  background-color: black;
+  height: 10px;
+}
+/* line 75, style.scss */
+.navbar-fixed-top:hover {
+  opacity: 1;
+}
+input{
+  color:black;
+}
+
+/* line 90, style.scss */
